@@ -14,10 +14,12 @@ def mytranspose(arr)
     retVal
 end
 
-p mytranspose(arr)
+# p mytranspose(arr)
 
 
 
 # arr[0][1]
 # arr[1][1]
 # arr[2][1]
+
+p [3, 6, 10].inject(10) {|sum, number| sum + number}
